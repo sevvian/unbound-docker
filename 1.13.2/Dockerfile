@@ -27,7 +27,6 @@ RUN set -e -x && \
       no-weak-ssl-ciphers \
       no-ssl3 \
       no-shared \
-      enable-ec_nistp_64_gcc_128 \
       -DOPENSSL_NO_HEARTBEATS \
       -fstack-protector-strong && \
     make depend && \
